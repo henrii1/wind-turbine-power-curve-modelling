@@ -4,9 +4,13 @@ This repository focuses on obtaining a method for power curve modelling that is 
 data is proprietary hence isn't published in this work.
 
 A novel filteration technique was introduced in this work based on quantiles set on a normal distribution of data
+
 we utilize a novel quantile filtering algorithm, a Radial Basis Function and Multi-layer Perceptron Neural network
+
 Quantile filtering is based on quantiles set on a normal distribution of data that specifies the location of dataset regarded as clean and the region of dataset regarded as outliers.
-we also propose an automatic method of fault detection based on the conversion the distance between points in the 2 dimension space into a confidence interval of a clean data......when paper is published, i will make the link available.
+
+we also propose an automatic method of fault detection based on the conversion the distance between points in the 2 dimension space into a confidence interval of a clean data.
+
 for the conditions implemented in this work
 
         @ONLINE{
