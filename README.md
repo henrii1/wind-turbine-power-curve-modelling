@@ -41,7 +41,7 @@ for the conditions implemented in this work
 ## ALGORITHM IMPLEMENTED
 below is a picture of the model architecture
 <p align="centre">
-  <img src="https://github.com/henrii1/wind-turbine-power-curve-modelling/blob/eb5a4d7af8ef44b901038202c35f975caa722ffc/pics/algorithm.png" | width=275>
+  <img src="https://github.com/henrii1/wind-turbine-power-curve-modelling/blob/ee94834e32ffa2b91fc149bc48a3c38bdb15c94a/pics/algo.png" | width=275>
   </p>
   
   ## Citation
