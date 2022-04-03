@@ -8,28 +8,31 @@ we utilize a novel quantile filtering algorithm, a Radial Basis Function and Mul
 Quantile filtering is based on quantiles set on a normal distribution of data that specifies the location of dataset regarded as clean and the region of dataset regarded as outliers.
 we also propose an automatic method of fault detection based on the conversion the distance between points in the 2 dimension space into a confidence interval of a clean data......when paper is published, i will make the link available.
 for the conditions implemented in this work
-@ONLINE{hse,
-    # Remove outlier
-for x in range(1, 62):
-    if x <= 3:
-        F = 0.95
-    elif ((x > 3) and (x <= 10)):
-        F = 0.9
-    elif ((x > 10) and (x <= 20)):
-        F = 0.92
-    elif ((x > 20) and (x < 30)):
-        F = 0.96
-    else:
-        F = 0.985
-    d1[x] = outlier_remover(d1[x], 'wind speed', 0.00001, F)
-}
+
+        @ONLINE{
+            Remove outlier
+            for x in range(1, 62):
+                 if x <= 3:
+                    F = 0.95
+            elif ((x > 3) and (x <= 10)):
+                    F = 0.9
+            elif ((x > 10) and (x <= 20)):
+                    F = 0.92
+            elif ((x > 20) and (x < 30)):
+                    F = 0.96
+            else:
+                    F = 0.985
+            d1[x] = outlier_remover(d1[x], 'wind speed', 0.00001, F)
+           }
 
 ## Filtration results
 <p align="center">
   <img src="https://github.com/henrii1/wind-turbine-power-curve-modelling/blob/eb5a4d7af8ef44b901038202c35f975caa722ffc/pics/Screenshot%202022-04-03%20212914.png" | width=275>  
   <img src="https://github.com/henrii1/wind-turbine-power-curve-modelling/blob/eb5a4d7af8ef44b901038202c35f975caa722ffc/pics/wind%203.png" | width=275>  
    </p>
-**[Here is the main python notebook](https://github.com/henrii1/wind-turbine-power-curve-modelling/blob/main/WIND_TURBINE_POWER_CURVE_MODEL_BINNING_AND_REGRESSION_NN__(2)%20(1).ipynb) that explains all of the stuff step by step!**
+   
+## Notebook link
+[Here is the main python notebook](https://github.com/henrii1/wind-turbine-power-curve-modelling/blob/main/WIND_TURBINE_POWER_CURVE_MODEL_BINNING_AND_REGRESSION_NN__(2)%20(1).ipynb) that explains all of the stuff step by step!
 
 ## ALGORITHM IMPLEMENTED
 below is a picture of the model architecture
