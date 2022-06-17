@@ -1,0 +1,8 @@
+'1.' " 'tensorflow_addons'"
+'2.' " 'keras'"
+'3.' " 'tensorflow 2.8.0'"
+'4.' " 'numpy'"
+'5.' " 'sklearn"
+'6.' " 'pandas"
+'7.' " 'matplotlib"
+'8.' " 'scipy"
