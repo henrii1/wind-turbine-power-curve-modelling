@@ -1,4 +1,4 @@
-import RBFLayer
+from utilities.RBFclass import RBFLayer
 import tensorflow as tf
 import math
 import pandas as pd
