@@ -1,5 +1,5 @@
 from utilities.RBFclass import RBFLayer
-from logging import *
+from loggings import *
 import tensorflow as tf
 import math
 import pandas as pd
