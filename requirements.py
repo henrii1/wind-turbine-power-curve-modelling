@@ -6,3 +6,4 @@
 '6.' " 'pandas"
 '7.' " 'matplotlib"
 '8.' " 'scipy"
+"to be ran using ipython"
