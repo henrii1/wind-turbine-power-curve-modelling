@@ -1,15 +1,15 @@
 # wind-turbine-power-curve-modelling
 
 This repository focuses on obtaining a method for power curve modelling that is more accurate than existing techniques and can be implemented for real time turbine monitoring of wind farms.
-data is proprietary hence isn't published in this work.
+data is also published in this work for ease of testing wherever required.
 
-A novel filteration technique was introduced in this work based on quantiles set on a normal distribution of data
+A novel filteration technique is introduced in this work based on quantiles set on a normal distribution of the data.
 
-we utilize a novel quantile filtering algorithm, a Radial Basis Function and Multi-layer Perceptron Neural network
+we utilize a novel quantile filtering algorithm, a Radial Basis Function and Multi-layer Perceptron Neural network.
 
 Quantile filtering is based on quantiles set on a normal distribution of data that specifies the location of dataset regarded as clean and the region of dataset regarded as outliers.
 
-we also propose an automatic method of fault detection based on the conversion the distance between points in the 2 dimension space into a confidence interval of a clean data.
+we also developed a statistical method of fault detection based on the conversion the distance between points in the 2 dimension space into confidence levels for a clean data.
 
 for the conditions implemented in this work
 
